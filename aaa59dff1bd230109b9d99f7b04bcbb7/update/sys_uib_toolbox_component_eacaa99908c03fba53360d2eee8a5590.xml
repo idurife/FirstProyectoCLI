@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <description>A task dashboard component</description>
+        <external_configuration_sources/>
+        <icon>chart-forecast-fill</icon>
+        <label>Now Task Dashboard</label>
+        <macroponent display_value="Now Task Dashboard">7880140f6115aec821ae1b05b3ac061a</macroponent>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 18:11:11</sys_created_on>
+        <sys_id>eacaa99908c03fba53360d2eee8a5590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Task Dashboard</sys_name>
+        <sys_package display_value="@idrf/first-project-cli" source="x_652573_idrf_fi_0">aaa59dff1bd230109b9d99f7b04bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@idrf/first-project-cli">aaa59dff1bd230109b9d99f7b04bcbb7</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_eacaa99908c03fba53360d2eee8a5590</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 18:11:11</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=eacaa99908c03fba53360d2eee8a5590"/>
+</record_update>

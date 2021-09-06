@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <description>A description of my component</description>
+        <external_configuration_sources/>
+        <icon>document-outline</icon>
+        <label>Example demo</label>
+        <macroponent display_value="Example demo">f9c1ba5ca8e1e2d4c76b4c2c96f5da1f</macroponent>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 18:11:06</sys_created_on>
+        <sys_id>4067b1f6c30ed081b37861db2777201b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example demo</sys_name>
+        <sys_package display_value="@idrf/first-project-cli" source="x_652573_idrf_fi_0">aaa59dff1bd230109b9d99f7b04bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@idrf/first-project-cli">aaa59dff1bd230109b9d99f7b04bcbb7</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_4067b1f6c30ed081b37861db2777201b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 18:11:06</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=4067b1f6c30ed081b37861db2777201b"/>
+</record_update>
