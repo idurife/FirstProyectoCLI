@@ -1,0 +1,1 @@
+export const BUTTON_BTN_CLICKED = 'NOW_BUTTON#CLICKED';

@@ -1,0 +1,47 @@
+{
+	"name": "@idrf/first-project-cli",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@idrf/first-project-cli"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"scripts": {
+		"start:counterExample": "now-cli develop --open --entry=./counter.js",
+		"start:checklistExample": "now-cli develop --open --entry=./checklist.js",
+		"start:demoExample": "now-cli develop --open --entry=./demo.js",
+		"start:propsExample": "now-cli develop --open --entry=./propsdemo.js",
+		"start:snc-now-experience-dashboard": "now-cli develop --open --entry=./now-experience-dashboard.js"
+	},
+	"dependencies": {
+		"@servicenow/behavior-rtl": "^19.8.2-ecd",
+		"@servicenow/cli-archetype": "19.0.0",
+		"@servicenow/cli-component-archetype": "19.0.0",
+		"@servicenow/library-translate": "quebec",
+		"@servicenow/now-avatar": "quebec",
+		"@servicenow/now-button": "^19.8.2-ecd",
+		"@servicenow/now-heading": "quebec",
+		"@servicenow/now-icon": "^19.8.2-ecd",
+		"@servicenow/now-label-value": "quebec",
+		"@servicenow/now-loader": "quebec",
+		"@servicenow/now-toggle": "quebec",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-effect-http": "quebec",
+		"@servicenow/ui-renderer-snabbdom": "quebec",
+		"bootstrap": "^4.5.2"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "19.0.0",
+		"@servicenow/cli-component-archetype-dev": "19.0.0"
+	}
+}

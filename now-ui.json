@@ -1,0 +1,95 @@
+{
+	"components": {
+	    "x-652573-first-project-cli": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "My Component",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			}
+	    },
+		"x-652573-example-checklist": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Demo checklist",
+				"icon": "list-fill",
+				"description": "Component to count people in a space. Developed by Isacc Ramirez.",
+				"category": "primitives"
+			}
+		},
+		"x-652573-example-counter": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Example counter",
+				"icon": "user-group-fill",
+				"description": "Component to count people in a space. Developed by Isacc Ramirez.",
+				"category": "primitives"
+			}
+		},
+		"x-652573-example-demo": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Example demo",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			},
+			"actions": [
+				{
+					"description": "My Component - Button Clicked",
+					"label": "My Component - Button Clicked",
+					"action": "MY_COMPONENT_BUTTON_CLICKED",
+					"payload": []
+				}
+			]
+		},
+		"x-652573-example-props": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Events Demo",
+				"icon": "document-outline",
+				"description": "Demo for firing events",
+				"category": "primitives"
+			},
+			"actions": [
+				{
+					"description": "Fired from button",
+					"label": "Button click event",
+					"action": "EVENT_FIRED",
+					"payload": []
+				}
+			]
+		},
+		"x-652573-experience-dashboard": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Now Task Dashboard",
+				"icon": "chart-forecast-fill",
+				"description": "A task dashboard component"
+			}
+		}
+	},
+	"scopeName": "x_652573_idrf_fi_0"
+}
