@@ -89,6 +89,30 @@
 				"icon": "chart-forecast-fill",
 				"description": "A task dashboard component"
 			}
+		},
+		"x-652573-example-search": {
+			"innerComponents": [
+				"now-card",
+				"now-input",
+				"now-modal",
+				"now-icon",
+				"now-loader",
+				"now-button-iconic",
+				"now-highlighted-value",
+				"now-rich-text",
+				"now-heading",
+				"now-label-value-inline"
+
+			],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "KB Search",
+				"icon": "magnifying-glass-fill",
+				"description": "Search KB Articles"
+			}
 		}
 	},
 	"scopeName": "x_652573_idrf_fi_0"

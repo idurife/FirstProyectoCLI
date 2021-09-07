@@ -10,7 +10,7 @@ export default (state, helpers) => {
         barPadding,
         title
     } = state.properties;
-    debugger;
+    
     const totalHeight = chartHeight + 30;
      return (
         <div className="bar-container">

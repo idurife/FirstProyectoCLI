@@ -1,0 +1,58 @@
+@import '@servicenow/sass-kit/host';
+@import '~bootstrap/scss/bootstrap';
+@import '../../theme.scss';
+:host {
+	display: block;
+	height: 100%;
+}
+.now-agent-assist {
+	//margin: 15px;
+	// background-color: RGB(--now-card_sidebar--tertiary_info--background-color);
+	// color: RGB($x-mycompany-checkout-button--color);
+	// background-color: RGB($now-button--primary--background-color);
+	display: flex;
+	flex-direction: column;
+	//max-width: now-fn-px2rem(300px);
+	height: inherit;
+	margin: auto;
+	padding: $now-global-space--lg;
+	background-color: RGB($now-color--background-secundary);
+    margin-top: 12px;
+    
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+}
+
+// .now-agent-assist {
+// 	display: flex;
+// 	flex-direction: column;
+// 	max-width: now-fn-px2rem(300px);
+// 	height: inherit;
+// 	margin: auto;
+// 	padding: $now-global-space--lg;
+// 	background-color: RGB(--now-card_sidebar--tertiary_info--background-color
+// 	);
+// }
+
+
+/* Styles for wrapping the search box */

@@ -19,7 +19,8 @@
 		"start:checklistExample": "now-cli develop --open --entry=./checklist.js",
 		"start:demoExample": "now-cli develop --open --entry=./demo.js",
 		"start:propsExample": "now-cli develop --open --entry=./propsdemo.js",
-		"start:snc-now-experience-dashboard": "now-cli develop --open --entry=./now-experience-dashboard.js"
+		"start:snc-now-experience-dashboard": "now-cli develop --open --entry=./now-experience-dashboard.js",
+		"start:searchExample": "now-cli develop --open --entry=./search.js"
 	},
 	"dependencies": {
 		"@servicenow/behavior-rtl": "^19.8.2-ecd",
@@ -28,10 +29,14 @@
 		"@servicenow/library-translate": "quebec",
 		"@servicenow/now-avatar": "quebec",
 		"@servicenow/now-button": "^19.8.2-ecd",
+		"@servicenow/now-card": "^19.8.2-ecd",
 		"@servicenow/now-heading": "quebec",
 		"@servicenow/now-icon": "^19.8.2-ecd",
+		"@servicenow/now-input": "^19.8.2-ecd",
 		"@servicenow/now-label-value": "quebec",
 		"@servicenow/now-loader": "quebec",
+		"@servicenow/now-modal": "^19.8.2-ecd",
+		"@servicenow/now-rich-text": "^19.8.2-ecd",
 		"@servicenow/now-toggle": "quebec",
 		"@servicenow/sass-kit": "quebec",
 		"@servicenow/sass-theme": "quebec",

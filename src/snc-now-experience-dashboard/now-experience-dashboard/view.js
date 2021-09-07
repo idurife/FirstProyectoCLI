@@ -17,11 +17,11 @@ export default (state, helpers) => {
                 items,
                 chartData
         } = state;
-        debugger;
+        
         return (
                 <div className="container">
                         <div className="panel-content">
-                        <div className="chart">hola
+                        <div className="chart">
                         <x-652573-now-experience-bar-chart visualizations={chartData}>
                         </x-652573-now-experience-bar-chart>
                     </div>

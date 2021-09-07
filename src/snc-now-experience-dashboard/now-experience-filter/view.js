@@ -4,7 +4,7 @@ export default (state, helpers) => {
 
     const { dispatch } = helpers;
     const { query } = state;
-    debugger;
+    
     return (
         <div className="filter-container">
         <div className="input-input-container">

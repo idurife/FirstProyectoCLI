@@ -5,7 +5,7 @@ export default {
     actionHandlers: {
         [actionTypes.COMPONENT_BOOTSTRAPPED]: (coeffects) => {
             const { dispatch } = coeffects;
-            debugger;
+            
             const query = `sys_class_nameIN${taskTables.join(',')}`;
 
             const fields = columns.map((col) => {
@@ -32,7 +32,7 @@ export default {
         'FETCH_TASK_DATA_SUCCEEDED': (coeffects) => {
             const { action, updateState } = coeffects;
             const { result } = action.payload;
-            debugger;
+            
              const visualizations = {};
 
           
@@ -68,7 +68,7 @@ export default {
         'NOW_EXPERIENCE_FILTER#CHANGED': (coeffects) => {
             const { action, dispatch } = coeffects;
             const { payload } = action;
-            debugger;
+            
             const query = `sys_class_nameIN${taskTables.join(',')}^${payload.query}`;
 
             const fields = columns.map((col) => {
@@ -88,7 +88,7 @@ export default {
                 sys_id,
                 sys_class_name
             } = action.payload;
-            debugger;
+            
             dispatch('FETCH_TASK_RECORD', {
                 id: sys_id,
                 table: sys_class_name,
@@ -109,7 +109,7 @@ export default {
         'FETCH_TASK_RECORD_SUCCEEDED': (coeffects) => {
             const { action, updateState } = coeffects;
             const { result } = action.payload;
-            debugger;
+            
             const items = Object
                 .keys(result)
                 .sort()
@@ -124,7 +124,7 @@ export default {
 
                     return acc;
                 }, []);
-                debugger;
+                
                 updateState({ 
                     items,
                     recordTitle: result.number.display_value,

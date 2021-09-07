@@ -1,0 +1,28 @@
+@import '@servicenow/sass-kit/host';
+@import '~bootstrap/scss/bootstrap';
+@import '../../theme.scss';
+:host {
+	display: block;
+	height: 100%;
+}
+main {
+	overflow: auto;
+	padding: $now-global-font-size--sm 0px;
+	.no-response-found {
+		display: grid;
+		justify-items: center;
+		grid-gap: $now-global-space--sm;
+		padding: $now-global-space--md;
+	}
+	
+}
+.now-modal-dialog{
+	padding: 0;
+    margin-bottom: 0;
+}
+.marginrich{
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: aqua!important;
+	width: 100%;
+}
