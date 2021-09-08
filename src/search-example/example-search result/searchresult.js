@@ -6,6 +6,7 @@ import listActions from './actions';
 
 createCustomElement('x-652573-example-search-result', {
 	renderer: { type: snabbdom },
+	styles: style,
 	view,
 	initialState: {
 		showLoading:true,
@@ -16,6 +17,6 @@ createCustomElement('x-652573-example-search-result', {
 	properties: {
 		searchString: { default: 'something' }
 	},
-	styles: style,
+	
 	...listActions
 });

@@ -19,7 +19,7 @@ export default (state, helpers) => {
 	return (
 
 
-		<now-card size="md" interaction="none" sidebar={{ "color": "positive", "variant": "primary" }}>
+		<now-card size="md" interaction="none" sidebar={{ "color": "positive", "variant": "primary" }} className="border-card">
 			{state.showLoading ?
 				(<now-loader />) : (
 					<main>
@@ -69,11 +69,7 @@ export default (state, helpers) => {
 							<now-highlighted-value slot="start" label="Start Label" status="high" show-icon />
 							<now-highlighted-value slot="end" label="End Label" status="high" show-icon />
 						</now-card-footer>
-						{/* <now-card-actions
-							items={[{ "label": "Confirm", "icon": "thumbs-up-outline" },
-							{ "label": "Calculate", "icon": "pencil-outline" },
-							{ "label": "Call", "icon": "phone-outline" }]}>
-						</now-card-actions> */}
+
 					</main>
 				)}
 

@@ -1,20 +1,25 @@
 @import '@servicenow/sass-kit/host';
 @import '~bootstrap/scss/bootstrap';
 @import '../../theme.scss';
-:host {
-	display: block;
-	height: 100%;
-}
+
 main {
 	overflow: auto;
-	padding: $now-global-font-size--sm 0px;
+	padding: 0px;
 	.no-response-found {
 		display: grid;
 		justify-items: center;
 		grid-gap: $now-global-space--sm;
 		padding: $now-global-space--md;
 	}
-	
+	now-card-header{
+		border-radius: $now-container--border-radius;
+		display: grid;
+		grid-template-columns:auto;
+		align-items: center;
+		background-color: RGB($x-mycompany-now-card_sidebar--primary_info--background-color);
+		padding: 12px;
+		
+	}
 }
 .now-modal-dialog{
 	padding: 0;
@@ -26,3 +31,5 @@ main {
 	background-color: aqua!important;
 	width: 100%;
 }
+
+
